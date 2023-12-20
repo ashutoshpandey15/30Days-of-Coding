@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 3rem;
+    color: #bb1111;
+    font-weight:bold;
+    background-color: blue;
+    
+}
+
+a{
+    font-size: 4rem;
+    color: black;
+    background-color:pink
+}
