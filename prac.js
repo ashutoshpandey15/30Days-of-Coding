@@ -35,3 +35,23 @@
 // }
 
 
+//CODE FOR FINDING THE MAX ELEMENT IN THE ARRAY
+// const arr=[34,89,76,38,45,90];
+// let maxElement = 0;
+// for(let i=0;i<=arr.length;i++){
+//     if(arr[i]>maxElement){
+//         maxElement=arr[i];
+//     }
+// }
+// console.log("Max element in the array is : " + maxElement );
+
+// ARRAYS OF OBJECTS
+// const Students = [{
+//     name: 'John',
+//     age: 20
+// },
+// {
+//     name : 'Ashu',
+//     age : 25
+// }]
+
