@@ -64,3 +64,10 @@
 //calling a function
 //const value = sum(1,2)
 //console.log(value);
+
+// //Functions can take other functions as an input i.e CALLBACKS
+// function greet() {
+//     console.log("Greet from abc")
+// }
+// setTimeout(greet, 2 * 1000)
+//The settimeout fxn calls greet fxn after 2s
