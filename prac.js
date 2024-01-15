@@ -55,3 +55,12 @@
 //     age : 25
 // }]
 
+//Functions
+//Independent codes which give a particular output
+//basic example
+// function(a,b){
+//     return a+b
+// }
+//calling a function
+//const value = sum(1,2)
+//console.log(value);
