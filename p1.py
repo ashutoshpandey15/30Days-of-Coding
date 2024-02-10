@@ -107,3 +107,10 @@ while(true):
 """
 #continute statement skips the execution of remaining code
 # inside while loop and goes back to test condition.
+
+
+#Functions are block of code which is executed when it is called.
+#basic function example
+"""def Ashu():
+    print("Hello ashu")
+Ashu()"""
