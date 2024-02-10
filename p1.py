@@ -63,3 +63,18 @@ elif(Age>10 and Age<18 ):
     print("Your are still child")
 else:
     print("you are too young to vote ")"""
+    
+#Match case in python (new addition in python 3.10)
+
+"""a =2
+match a:
+    case 1:
+        print("one")
+    case 2:
+        print("two")
+    case 3:
+        print("three")
+    case _:
+        print("default")"""
+        
+#similar to switch case in c++ and java
