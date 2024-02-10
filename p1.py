@@ -78,3 +78,14 @@ match a:
         print("default")"""
         
 #similar to switch case in c++ and java
+
+#LOOPS
+#FOR LOOP
+"""for i in range(5):
+    print(i+1)"""
+#to print a list or a tuple
+"""l1 = [1,2,3,4,5,6,7,8,9,10]
+for item in l1:
+    print(item)"""
+    
+#WHILE LOOP
