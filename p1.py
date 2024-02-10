@@ -34,17 +34,32 @@ print(s1)"""
 # we can also use some methods in sets like add, remove, discard, pop, clear, union, intersection, difference
 """s1.add(11)
 print(s1)"""
+#we can make an empty set using set() function
+"""b = set()
+print(type(b))"""
 
 #Dictionary
 #Dictionary is a collection which is unordered, changeable and indexed.
 #In Python dictionaries are written with curly brackets, and they have keys and values.
 #example
-d1 = {
+"""d1 = {
     "name":"Ashutosh",
      "age" : 20,
     "address" : "Delhi"
 }
+
+print(d1.get("lock")) #returns none if key is not present
+print(d1["name"])   #accessing the value of name key if key not present it will give error.
 print(d1)
 print(d1.keys()) #this will return all the keys of dictionary
 print(d1["name"]) # this will give value of name key
 print(d1.values()) # this will return all the values of dictionary
+# and to show empty dict we can use the following code
+d2 = {}"""
+"""Age  = int(input("Enter Your age : "))
+if(Age>18):
+    print("You are eligible to vote")
+elif(Age>10 and Age<18 ):  
+    print("Your are still child")
+else:
+    print("you are too young to vote ")"""
