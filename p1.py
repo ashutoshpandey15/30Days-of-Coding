@@ -114,3 +114,18 @@ while(true):
 """def Ashu():
     print("Hello ashu")
 Ashu()"""
+#Functions can take multiple arguments separated by comma.
+#example
+"""def greet(name,surname):
+    print("Hello",name,surname)
+    
+greet("Ashutosh","Pandey")"""
+
+#concept of f strings in functions
+"""def hello(name,surname,date):
+    str = f"Hello Mam I'am {name} {surname} and I will not be available on {date}"
+    print(str)
+hello("Ashutosh","Pandey","20th August")"""
+
+# output -> Hello Mam I'am Ashutosh Pandey and I will not be available on 20th August
+#this is similar to template litrals in javascript
