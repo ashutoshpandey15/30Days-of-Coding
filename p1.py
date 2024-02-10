@@ -87,5 +87,23 @@ match a:
 """l1 = [1,2,3,4,5,6,7,8,9,10]
 for item in l1:
     print(item)"""
+# to brake loop we use break statement 
+"""for item in l1:
+    if item == 4:
+        break
+    print(item)"""
     
 #WHILE LOOP
+"""num = 2
+while (num<10):
+    print(num+1)
+    num +=1
+print("Done with the loop")"""
+
+"""
+This is Infinite While loop
+while(true):
+    print("Waiting for the user to press ctrl+c to stop the loop")
+"""
+#continute statement skips the execution of remaining code
+# inside while loop and goes back to test condition.
