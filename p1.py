@@ -129,3 +129,37 @@ hello("Ashutosh","Pandey","20th August")"""
 
 # output -> Hello Mam I'am Ashutosh Pandey and I will not be available on 20th August
 #this is similar to template litrals in javascript
+
+#Exception Handling
+"""
+try:
+    a = int(input("Enter a number : "))
+    print("hello"+a)
+
+except:
+    print("Invalid Input")"""
+    
+#File Handling/input output
+#to write in a file 
+#exmple for a string
+"""s = "Hello World"
+with open ("file.txt","w") as f:
+    f.write(s)
+print("Data written successfully")
+
+#To read the file
+with open("file.txt","r") as f:
+    a = f.read()
+    print(a)"""
+    
+#By using with statement we can avoid using close() method.
+#because it automatically closes the file after its suite finishes.
+
+#To append in a file
+#example
+"""a = "\tAshutoh Pandey"
+with open("file.txt","a") as f:
+    f.write(a)
+print("Data appended successfully")"""
+
+#it adds the data at the end of the file.
