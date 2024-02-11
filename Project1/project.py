@@ -1,3 +1,12 @@
+
+"""
+    The code is a Python script that uses the gTTS library to convert user input text into speech and
+    plays it using the pygame library.
+    
+    Args:
+      text: The text parameter is the input text that you want to convert to speech.
+"""
+
 from gtts import gTTS
 import pygame
 
