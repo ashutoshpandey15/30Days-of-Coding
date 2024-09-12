@@ -11,7 +11,19 @@ console.table({ashu, myName, myAdd , myName1}); // to consolelog in table format
 // Data types in js
 // Primitive data types
 // 1. String
-// 2. Number
+let name = "ashu";
+let age = 18
+let islogged = false
+console.table({name,age,islogged})
+// 2. Number => int , float
 // 3. Boolean
-// 4. Null
-// 5. Undefined
+// 4. Null=> standalone value / representation of empty value.(special type)
+// 5. Undefined => when the value is not defined
+// 6.bigint = to store large numbers
+// 7.symbol => used to identify unique 
+// 8. object => key value pair
+
+//typeof=> gives the type of the variable
+console.log(typeof name)
+console.log(typeof null) // null is an object
+console.log(typeof undefined)
