@@ -42,3 +42,6 @@ console.log(null >= 0); //true
 //In these examples js converts null to 0 and then compares them
 //always compare with the same datatype
 //=== checks the value as well as datatype 
+//++++++++++++++++++++++++++++++++++++++++++++++++
+//stack (primitive (changes are made in copy orignal not changed))
+//heap (non-primitive(change in orignal value or reffered value))
