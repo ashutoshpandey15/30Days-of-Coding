@@ -36,3 +36,9 @@ console.log(+"");//gives 0
 
 // again dont write this type of code
 
+console.log(null > 0); //false
+console.log(null == 0); //false
+console.log(null >= 0); //true 
+//In these examples js converts null to 0 and then compares them
+//always compare with the same datatype
+//=== checks the value as well as datatype 
